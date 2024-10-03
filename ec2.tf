@@ -1,8 +1,8 @@
 #for ec2 we need VPC, Key-pair, security group
 resource "aws_key_pair" "deployer" {
   key_name = "shivani-terra-key"
-#   public_key = file("C:\\Users\\My Pc\\Desktop\\OOP_example\\DevOps\\Terraform\\terra-key")
-    public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC8K2YriJ8Tpt5iNZOPUafXDril2WMo9wzvzSKDmdJ8B0Oo/wMZr01dOf5NKGxca/p2NYqP+g8OlBBy6Eaxq5dJrPAHfbazeAB+h6VRYQrUHOiBKRB8+6xlGpojNUSRhdDaA8YgW0IgrpaAPYJDG3oCIQd8zJ7gAZHARBhUAUc8pZag97OQLS+nqr9rPSq8ERaNctrj+wVNciOwWg0ii+HCzZ7PloWYEdbGqhMVaXifUSJwd/RG7179KewYyy3DoJLacoPoL9rxzgkihGRBPdh97NFUQ+65sMEg8YmvjV77UZSY1W7qazVxB7LkiSYtFPeDJLEP889qwkzlk9zvoLUkQFmGlkBxD+InTidDotDiH2oTtsSYcwsn3AxAQyyk4VXCV+vkuA9u7IYmO3WuJzDHGyjZUkRo0SceFf9oOlzQ2ndQyxyp8T34XyYLN9E7zWkL8HN/44D7vpcO+iMVHw2PNaAy0Q2ibd+aslGikr9LczHxkOjJQWsnXHupVhxXb7c= my pc@DESKTOP-N09AG2N"
+  public_key = file("C:\\Users\\My Pc\\Desktop\\OOP_example\\DevOps\\Terraform\\terra-key")
+    
 
 }
 #Default VPC
